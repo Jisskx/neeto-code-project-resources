@@ -1,0 +1,128 @@
+html {
+    font-family: sans-serif;
+    background-color: #eaeeef;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.site-name {
+    letter-spacing: 0rem;
+    margin-left:3rem;
+    margin-bottom: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10% 10px 2%;
+    align-items: end;
+    border-bottom: 1px solid lightgray;
+}
+.categories {
+    min-width: 25%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20rem 0 10rem;
+}
+.categories a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+#search-input {
+    background-color: rgb(205, 203, 203);
+    background-image: url("Resources/search-icon.png");
+    background-size: 0.9rem;
+    background-position: 15px 5px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    padding: 5px 25px;
+    margin-right: 0rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+#shopping-cart-image {
+    display: inline-block;
+    width:20px;
+}
+main {
+    display: flex;
+    padding: 3rem;
+}
+.shoe-images {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+}
+.shoe-picture {
+    width: 400px;
+    height: 400px;
+}
+.size-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.size-selection p {
+    color: #7a8080;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-block: 1rem;
+}
+p.select-size-heading {
+    font-size: 120%;
+    color: #000000;
+}
+.available-sizes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 21rem;
+}
+input[type="radio"] {
+    display: none;
+} 
+.product-size {
+    padding: 10px;
+    border-radius: 10px;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    transition: background-color 300ms ease-in;
+}  
+.product-size:hover {
+    background-color: #e7e1e1;
+}
+input[type="radio"]:checked + label.product-size{
+    background-color: #7a8080;
+    color: #505454;
+}
+.add-to-bag {
+    font-size: 1.2rem;
+    padding: 1.3rem;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000000;
+    width: 100%;
+    margin: 10px 0;
+}
+  
+.favourite-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    width: 100%;
+}
