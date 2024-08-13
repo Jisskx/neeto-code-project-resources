@@ -1,0 +1,212 @@
+html {
+    background-color: #0e151d;
+    font-family: sans-serif;
+}
+h3 {
+    font-weight: 500;
+}
+.portfolio {
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex-basis: 50rem;
+    margin-left:10rem;
+}
+.greetings {
+    color: #e0e495;
+}
+.intro1 {
+    margin:0px 0;
+    font-weight: 700;
+    font-size:xx-large;
+}
+.intro2 {
+    font-weight: 300;
+    opacity: 70%;
+}
+#my-works {
+    margin: 50px 0px 20px 0px;
+}
+.works-card{
+    display: flex;
+    background-color: #0c2d3e;
+    height: 10rem;
+    margin: 20px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 200ms ease-in;
+}
+.works-card:hover{
+    transform: scale(1.02);
+}
+.works-card-image {
+    width: 25%;
+}
+.works-card-content {
+    margin: 10px 20px;
+}
+.card-description {
+    opacity: 70%;
+}
+.card-link {
+    color:#e0e495;
+    text-decoration: none;
+}
+button {
+    background: none;
+    border: #e0e495 solid 1px;
+    border-radius: 10px;
+    color:#e0e495;
+    align-self: center;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #e0e495;
+    color: black;
+    cursor: pointer;
+}
+.writings-cards {
+    display: flex;
+}
+.writings-card1{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    padding: 15px;
+    background-color: #0c2d3e;
+    margin: 15px 20px 20px 0px;
+    flex: 1 0 30ch;
+    height: 15rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 200ms ease-in;
+}
+.writings-card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    padding: 15px;
+    background-color: #0c2d3e;
+    margin: 15px 0px 20px 0px;
+    flex: 1 0 30ch;
+    height: 15rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 200ms ease-in;
+}
+.writings-card1:hover, .writings-card2:hover {
+    transform: scale(1.02);
+}
+.writings-card-image {
+    height: 70%;
+    width: 100%;
+}
+.writings-card-title {
+    margin: 10px auto 2px 0;
+}
+.author-name {
+    opacity: 70%;
+    font-size: 0.8rem;
+}
+#writings {
+    margin: 50px 0px 20px 0px;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+#contents {
+    display: flex;
+    flex-direction: column;
+}
+.bookings-button {
+    margin: 15px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    color:#e0e495;
+    align-items: center;
+    margin: 50px auto 0px auto;
+}
+.social-link {
+    color:#e0e495;
+    margin: 15px;
+    opacity: 70%;
+    font-size: small;
+}
+.sidebar {
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 11vw;
+    min-width: 10rem;
+    height: 100%;
+    margin: 0px 5px 0px 0px;
+}
+.profile {
+    background-color: #0c2d3e;
+}
+#profile-pic {
+    margin: 0.8rem 25%;
+    border-radius: 50%;
+    width: 50%;
+}
+.profile-name {
+    color: white;
+    margin: 0.1rem 15%;
+    font-weight: 600;
+    text-align: center;
+}
+.role {
+    color: white;
+    opacity: 70%;
+    margin: 1rem 1.3rem 1.5rem 1.3rem;
+    text-align: center;
+}
+#sections {
+    color: white;
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+}
+.section-item {
+    margin: 0.8rem 0.5rem;
+    padding: 15px;
+    border-radius: 40px;
+    text-align: center;
+}
+.section-item:hover {
+    background-color: #0c2d3e;
+}
+.item-link {
+    text-decoration: none;
+    color: white;
+    opacity: 70%;
+    text-align:center;
+}
+.socials {
+    margin: 5rem 2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+}
+#nav {
+    background-color: #0e151d;
+    border-right: rgb(152, 150, 150, 30%) 1px solid;
+    height: 100%
+}
