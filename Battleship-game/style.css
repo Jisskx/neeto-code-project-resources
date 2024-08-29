@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+    font-family: sans-serif;
+}
+body {
+    background-color: #d35644;
+    padding: 2rem;
+}
+.battleship-heading {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline rgb(35, 35, 255);
+}
+.game-rules-heading {
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+.game-rules {
+    width: fit-content;
+    margin: 0 auto;
+}
+.battleship-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    gap: 0.4rem;
+    margin: 2rem auto;
+    border: 0.4rem white solid;
+    background-color: white;
+    max-width: min(70vh, 70vw);
+    box-shadow: 0px 0px 15px black;
+}
+.battleship-tile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: #b84a39;
+}
+.tile-image {
+    align-self: center;
+    opacity: 0;
+}
+.game-reset-button {
+    display: block;
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #b84a39;
+    border: none;
+    box-shadow: 3px 3px #2e9dbb;
+    transition: transform 300ms ease-in-out;
+}
+.game-reset-button:hover {
+    transform: scale(1.05)
+}
+
+.game-result-dialog-box{
+    top: 50%;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: black;
+	box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+.result-close-button{
+	align-self: center;
+	background-color: #b84a39;
+	color: white;
+	width: 50px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+}
