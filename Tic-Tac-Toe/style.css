@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+    background-image: url('Resources/pattern-randomized.png');
+    background-size: cover;
+    text-align: center;
+    padding: 1.5rem;
+}
+#heading {
+    font-size: 3rem;
+    margin: 2rem;
+}
+.game-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.7rem;
+    width: 35%;
+    margin: 0 auto;
+    aspect-ratio: 1/1;
+}
+.board-tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border: 6px solid black;
+    aspect-ratio: 1/1;
+}
+.board-tile:hover {
+    cursor: pointer;
+}
+.tile-image {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.game-result {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.game-reset-button {
+    margin: 2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    background-color: rgb(96, 241, 96);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.game-reset-button:hover {
+    background-color: rgb(16, 209, 16);
+}
